@@ -1,0 +1,11 @@
+body {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20rem; 
+    font-size: 6rem;
+    text-align: center;
+}
