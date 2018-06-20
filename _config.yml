@@ -1,0 +1,14 @@
+encoding: utf-8
+# Site settings
+
+url: "https://bricechou.github.io"
+title: BriceChou Blog             
+SEOTitle: BriceChou Blog 
+description: "NULL" 
+
+# SNS settings      
+github_username: bricechou
+weibo_username: bricechou
+
+# Build settings
+# paginate: 10
