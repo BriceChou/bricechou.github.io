@@ -7,7 +7,9 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <script defer src="{{ site.baseurl }}/js/l10n.js" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/res/css/main.css" />
+    <link rel="localization" href="{{ site.baseurl }}/locales/default.zh-CN.properties">
   </head>
 
   <body>
@@ -22,8 +24,8 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/"></a>
-            <a href="{{ site.baseurl }}/404"></a>
+            <a href="{{ site.baseurl }}/" data-l10n-id="default-menu-blog"></a>
+            <a href="{{ site.baseurl }}/404" data-l10n-id="default-404-page"></a>
           </nav>
         </header>
       </div>
