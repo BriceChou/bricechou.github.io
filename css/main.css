@@ -60,6 +60,27 @@ h6 {
   text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
 @media(max-width:767px) {
   .intro-message {
       padding-bottom: 15%;
