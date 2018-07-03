@@ -1,17 +1,6 @@
 ---
 layout: default
-title: Homepage
+title: Welcome to my home
+subTitle: Listen to BriceChou
 description: When you always be a beginner, great lives never go out.
 ---
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-      <a href="{{ site.baseurl }}{{ post.url }}"></a>
-    </article>
-  {% endfor %}
-</div>

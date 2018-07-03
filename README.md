@@ -17,4 +17,5 @@ Emmm... That's all. **To be continued.**
 Any good question or advice, you can file a new issue or contact me directly. Please feel free to let me know. 
 
 Mail: bricechou@gmail.com
+
 Skype: bricechou
