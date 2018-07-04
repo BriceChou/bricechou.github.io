@@ -19,19 +19,14 @@ encoding: utf-8
 
 # Footer links
 footer-links:
-  weibo: bricechou
   email: bricechou@gmail.com
   github: bricechou
-  instagram:
-  linkedin: 
-  stackoverflow: 
-  youtube: 
-  facebook: 
-  twitter: bricechou
   skype: bricechou 
 
 social:
-  - title: weibo
-    url: https://www.weibo.com/BriceChou
-  - title: github
+  - icon: paper-plane
+    title: MailTo
+    url: mailto:bricechou@gmail.com
+  - icon: github
+    title: github
     url: https://www.github.com/BriceChou
