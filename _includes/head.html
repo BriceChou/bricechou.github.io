@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link href="css/main.css" rel="stylesheet">
+  <link href="{{ site.baseurl }}/css/main.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link href="https://cdn.jsdelivr.net/npm/lato-webfont@2.15.1/lato.min.css" rel="stylesheet">
@@ -15,7 +15,7 @@
   <link href="https://cdn.jsdelivr.net/npm/simple-line-icons@2.4.1/css/simple-line-icons.css" rel="stylesheet">
   
   <!-- Custom Translation -->
-  <link rel="localization" href="locales/default.zh-CN.properties">
+  <link rel="localization" href="{{ site.baseurl }}/locales/default.zh-CN.properties">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,4 +23,6 @@
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/respond.min.js@1.4.2/respond.min.js"></script>
   <![endif]-->
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
