@@ -2,7 +2,9 @@
 <html>
   {% include head.html %}
   <body>
-    {% include navigation.html %}
+    {% if page.layout == "" %}
+      {% include navigation.html %}
+    {% endif %}
     
     <div class="container">
       <div class="intro-message">
