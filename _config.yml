@@ -1,16 +1,14 @@
 # Basic Config
-name: BriceChou
-author: BriceChou
-
-url: "https://bricechou.github.io"
-baseurl: ""
+# name: BriceChou
+# author: BriceChou
+url: ""
+# baseurl: "bricechou.github.io"
 title: Listen to BriceChou
 email: bricechou@gmail.com
 description: >
-  Sometimes learning, sometimes coding and always gaming.
-
+  No BUG, no code, no one.
 avatar: https://avatars2.githubusercontent.com/u/8147837?s=460&v=4
-copyright: 'Copyright &copy; 2018 BriceChou. All Rights Reserved.'
+copyright: "Copyright &copy; 2018 - 2020 BriceChou. All Rights Reserved."
 
 # Build settings
 markdown: kramdown
@@ -22,7 +20,6 @@ paginate_path: "page:num"
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jemoji
 
 highlighter: rouge
@@ -43,7 +40,7 @@ kramdown:
 footer-links:
   email: bricechou@gmail.com
   github: bricechou
-  skype: bricechou 
+  skype: bricechou
 
 social:
   - icon: paper-plane

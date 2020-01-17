@@ -1,7 +1,7 @@
 {% include navigation.html %}
 
 <section id="home">
-<!-- Header -->
+  <!-- Header -->
   <div class="intro-header">
     <div class="container">
       <div class="row">
@@ -9,12 +9,12 @@
           <div class="intro-message">
             <h1>{{ page.title }}</h1>
             <h3>{{ page.subTitle }}</h3>
-            <hr class="intro-divider">
+            <hr class="intro-divider" />
             <ul class="list-inline intro-social-buttons">
               {% for social in site.social %}
               <li>
                 <a href="{{ social.url }}" class="btn btn-default btn-lg">
-                  <i class="fa fa-{{ social.icon }} fa-fw"></i> 
+                  <i class="fa fa-{{ social.icon }} fa-fw"></i>
                   <span class="network-name">{{ social.title }}</span>
                 </a>
               </li>

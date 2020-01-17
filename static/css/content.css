@@ -1,0 +1,15 @@
+.ad {
+  color: #ffffff !important;
+  line-height: 0;
+  border: 0 none;
+  width: 0 !important;
+  font-size: 0 !important;
+  display: inline !important;
+  margin: 0 !important;
+  float: right;
+}
+
+dd {
+  margin: 1em 0;
+  padding: 0;
+}
