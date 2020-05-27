@@ -7,8 +7,8 @@
       <div class="row">
         <div class="col-lg-5 col-sm-6">
           <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-          <hr class="section-heading-spacer" />
-          <div class="clearfix" />
+          <hr class="section-heading-spacer"></hr>
+          <div class="clearfix"></div>
           <h2 class="section-heading">
             <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
           </h2>
@@ -16,12 +16,12 @@
           <p>
             <a href="{{ post.url | prepend: site.url }}">
               Read More
-              <i class="fa fa-chevron-circle-right" />
+              <i class="fa fa-chevron-circle-right"></i>
             </a>
           </p>
         </div>
         <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-          <img class="img-responsive" src="{{ post.img }}" alt="" />
+          <img class="img-responsive" src="{{ post.img }}" alt=""></img>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
       <div class="row">
         <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
           <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-          <hr class="section-heading-spacer" />
+          <hr class="section-heading-spacer"></hr>
           <div class="clearfix"></div>
           <h2 class="section-heading">
             <a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
@@ -49,7 +49,7 @@
           </p>
         </div>
         <div class="col-lg-5 col-sm-pull-6 col-sm-6">
-          <img class="img-responsive" src="{{ post.img }}" alt="" />
+          <img class="img-responsive" src="{{ post.img }}" alt="" ></img>
         </div>
       </div>
     </div>
@@ -65,7 +65,7 @@
       <li class="list-inline-item mr-3 lead">
         {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path }}">
-          <i class="fa fa-hand-o-left fa-fw" />
+          <i class="fa fa-hand-o-left fa-fw"></i>
           PREV
         </a>
         {% else %}
@@ -79,7 +79,7 @@
         {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path }}">
           NEXT
-          <i class="fa fa-hand-o-right fa-fw" />
+          <i class="fa fa-hand-o-right fa-fw"></i>
         </a>
         {% else %}
         <span>END</span>
