@@ -1,0 +1,23 @@
+{
+  "name": "bricechou.github.io",
+  "private": true,
+  "main": "index.js",
+  "version": "1.0.0",
+  "author": "bricechou",
+  "license": "Apache Licence 2.0",
+  "description": "learning, coding and talking.",
+  "scripts": {
+    "start": "jekyll serve",
+    "build": "jekyll build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BriceChou/bricechou.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BriceChou/bricechou.github.io/issues"
+  },
+  "homepage": "https://github.com/BriceChou/bricechou.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
