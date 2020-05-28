@@ -1,11 +1,27 @@
+# See https://github.com/github/gitignore for more about ignoring files.
+
+# auto generate file
 _site
 .DS_Store
-.jekyll
-.jekyll-metadata
+
 .bundle
 .sass-cache
+
 Gemfile
 Gemfile.lock
+
+# node folder
 node_modules
-package.json
+
+# jekyll cache folder
+.jekyll
 .jekyll-cache/
+.jekyll-metadata
+
+# Logs folder
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
