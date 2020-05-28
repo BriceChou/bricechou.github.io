@@ -1,3 +1,13 @@
+---
+layout: post
+img:
+categories: JavaScript
+title: How to config your Mac Terminal and Git status with colorful
+description: |
+date: 2019-10-04 18:00
+permalink: archivers/blog4
+---
+
 ## How to config your Mac Terminal and Git status with colorful
 
 ### Firstly, we should copy below code into your `.bash_profile` file.
