@@ -8,7 +8,7 @@ export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles"
 
 # Tell ls to be colourful
 export CLICOLOR=1
-export LSCOLORS=Exfxcxdxbxegedabagacad
+export LSCOLORS=GxFxCxDxBxegedabagaced
 
 # Tell grep to highlight matches
 export GREP_OPTIONS='--color=auto'
